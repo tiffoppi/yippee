@@ -1,0 +1,13 @@
+.parent > div:hover {
+    background-color: lightgreen;
+}
+
+/* Adjacent sibling combinator (+) */
+.sibling:hover + .sibling {
+    color: blue;
+}
+
+/* General sibling combinator (~) */
+.general-sibling:hover ~ .general-sibling {
+    font-style: italic;
+}
